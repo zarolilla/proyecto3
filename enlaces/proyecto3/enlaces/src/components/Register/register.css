@@ -1,0 +1,55 @@
+.register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  margin-bottom: 5rem;
+  height: 69vh;
+  margin-bottom: 5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+input {
+  background-color: rgba(158, 155, 155, 0.315);
+  border: none;
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.reg {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-width: 3px;
+  background-color: #9affaf;
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 25px;
+  text-transform: uppercase;
+
+  font-weight: bold;
+  box-shadow: rgba(141, 139, 139, 0.699) 4px 4px 10px;
+}

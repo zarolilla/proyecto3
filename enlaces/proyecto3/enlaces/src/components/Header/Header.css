@@ -1,0 +1,84 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav > div.button {
+  width: 100px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+  padding: 0.5rem 0;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: 5px;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+}
+
+.headerlogo {
+  background-color: #9affaf;
+  padding: auto;
+  border-bottom: 2px solid black;
+  display: flex;
+}
+img.biglogo {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 160px;
+}
+
+.user {
+  text-align: end;
+  padding-inline-end: 2rem;
+  color: black;
+}
+img.logo {
+  width: 180px;
+  height: 90px;
+  margin-right: 220px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+.buttons {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-width: 3px;
+  background-color: #337cdbad;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid whitesmoke;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+  margin-left: 5px;
+  margin-right: 8px;
+
+  font-weight: bold;
+  box-shadow: rgba(141, 139, 139, 0.699) 4px 4px 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+.buttons:hover {
+  background-color: #005ea8;
+}
+
+.avatar {
+  background-color: #ddd;
+  border-radius: 50%;
+  box-shadow: rgba(141, 139, 139, 0.699) 4px 4px 6px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.container.p {
+  max-width: 20ch;
+}

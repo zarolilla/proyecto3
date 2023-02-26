@@ -1,0 +1,13 @@
+div.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+div.app > main {
+  flex-grow: 1;
+}
+
+.not-found {
+  text-align: center;
+}
